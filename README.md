@@ -10,17 +10,16 @@ tensorflow       2.19.0;
 keras            3.10.0;
 
 
-Criei uma CNN para realizar o treinamento utilizando o dataset Cats&Dogs que contém 25000 imagens. Treinamento realizado no projeto "CNNtraining".
-Ao utilizar o dataset percebi que haviam duas imagens corrompidas, juma na pasta de Cats e outra na pasta de Dogs.
-Utilizando o código exemplo não foi possível realizar o treinamento devido ao código estar desatualizado, essa desatualização fazia com
-que o código consumisse memória RAM em demasia.
-Foi necessário uma alteração para ao invés de colocar todas as imagens em um vetor de armazenamento agora processamos as imagens em batch.
-O resultado do primeiro treinamento é mostrado na imagem "history_plot.png"
+I created a CNN for training using the Cats&Dogs dataset, which contains 25,000 images. Training was performed in the "CNNtraining" project.
+When using the dataset, I noticed two corrupted images: one in the Cats folder and the other in the Dogs folder.
+Using the code, it was impossible to train because the code was outdated. This outdated code causes
+the code to consume excessive RAM.
+A change was necessary: ​​instead of placing all the images in a single storage vector, we now process them as batches.
+The result of the first training is shown in the image "history_plot.png"
 
 
 ### Transfer learning ###
-Após treinada a CNN obtemos um arquivo do modelo treinado "best_model.h5", depois utilizamos esse modelo com algumas alterações para
-ser retreinado agora em um dataset com 3000 imagens, mas com uma classe a mais do que no primeiro treinamento. Agora temos cats,
-dogs e snakes.
-O resultado é mostrado na imagem "training_history.png"
+After training the CNN, we obtain a file of the trained model, "best_model.h5." We then use this model with some modifications to retrain it on a dataset with 3,000 images, but with one more class than in the first training. We now have cats,
+dogs, and snakes.
+The result is shown in the image "training_history.png."
 
