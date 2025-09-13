@@ -1,12 +1,12 @@
 Build:
 
-Library          Version
-pip              23.2.1
-matplotlib       3.10.0
-numpy            2.0.2
-scikit-learn     1.7.1
-tensorflow       2.19.0
-keras            3.10.0
+Library\t         Version\n
+pip\t              23.2.1\n
+matplotlib\t       3.10.0\n
+numpy\t            2.0.2\n
+scikit-learn\t     1.7.1\n
+tensorflow\t       2.19.0\n
+keras\t            3.10.0\n
 
 
 Criei uma CNN para realizar o treinamento utilizando o dataset Cats&Dogs que contém 25000 imagens. Treinamento realizado no projeto "CNNtraining".
