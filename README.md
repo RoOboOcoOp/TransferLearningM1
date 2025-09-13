@@ -2,7 +2,7 @@ Build:
 
 ### Library        Version ###
 
-pythonInterpreter    3.10.0
+pythonInterpreter    3.10.0;
 pip                  23.2.1;
 matplotlib           3.10.0;
 numpy                2.0.2;
