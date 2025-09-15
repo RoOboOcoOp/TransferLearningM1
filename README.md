@@ -1,4 +1,4 @@
-Build:
+# Build:
 
 ### Library        Version ###
 
@@ -23,7 +23,6 @@ After training the CNN, we obtain a file of the trained model, "best_model.h5." 
 dogs, and snakes.
 The result is shown in the image "training_history.png."
 
-### Observations ###
-In both training sessions, we have a "time" function that takes the start time of the training session and, at the end, returns the total time used for each training session.
-
-In the initial CNN training, the total time exceeds 60 minutes. In Transfer Learning, where we have a smaller number of images, the total time is less than 10 minutes.
+>[!Observations]
+>In both training sessions, we have a "time" function that takes the start time of the training session and, at the end, returns the total time used for each training session.
+>In the initial CNN training, the total time exceeds 60 minutes. In Transfer Learning, where we have a smaller number of images, the total time is less than 10 minutes.
