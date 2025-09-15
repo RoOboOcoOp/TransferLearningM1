@@ -23,7 +23,7 @@ The result of the first training is shown in the image below:
 After training the CNN, we obtain a file of the trained model, "best_model.h5." We then use this model with some modifications to retrain it on a dataset with 3,000 images, but with one more class than in the first training. We now have cats,
 dogs, and snakes.
 The result is shown in the image below:
-![Final result of Transfer Learning](https://github.com/RoOboOcoOp/TransferLearningM1/training_history.png)
+![Final result of Transfer Learning](	/training_history.png)
 
 >[!Important]
 >In both training sessions, we have a "time" function that takes the start time of the training session and, at the end, returns the total time used for each training session.
