@@ -41,7 +41,7 @@ and the pre-trainned model is this:
 ````
 
 When using the dataset, I noticed two corrupted images: one in the Cats folder and the other in the Dogs folder.
-Using the code, it was impossible to train because the code was outdated. This outdated code causes
+Using the given code, it was impossible to train because the code was outdated. This outdated code causes
 the code to consume excessive RAM.
 A change was necessary: ​​instead of placing all the images in a single storage vector, we now process them as batches.
 The result of the first training is shown in the image below:
