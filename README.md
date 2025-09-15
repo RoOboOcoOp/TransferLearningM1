@@ -17,6 +17,9 @@ Using the code, it was impossible to train because the code was outdated. This o
 the code to consume excessive RAM.
 A change was necessary: ​​instead of placing all the images in a single storage vector, we now process them as batches.
 The result of the first training is shown in the image "history_plot.png"
+In both training sessions, we have a "time" function that takes the start time of the training session and, at the end, returns the total time used for each training session.
+
+In the initial CNN training, the total time exceeds 60 minutes. In Transfer Learning, where we have a smaller number of images, the total time is less than 10 minutes.
 
 
 ### Transfer learning ###
