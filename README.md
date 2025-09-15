@@ -11,7 +11,7 @@ tensorflow           2.19.0;
 keras                3.10.0;
 
 
-I created a CNN for training using the Cats&Dogs dataset, which contains 25,000 images. Training was performed in the "CNNtraining" project.
+I created a CNN inspired on the VGG16 model for training using the Cats&Dogs dataset, which contains 25,000 images. Training was performed in the "CNNtraining" project.
 When using the dataset, I noticed two corrupted images: one in the Cats folder and the other in the Dogs folder.
 Using the code, it was impossible to train because the code was outdated. This outdated code causes
 the code to consume excessive RAM.
