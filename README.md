@@ -1,14 +1,14 @@
 # Build:
 
-### Library       Version ###
+### Library - - Version ###
 
-pythonInterpreter<t/>    3.10.0<br/>
-pip<t/>                  23.2.1<br/>
-matplotlib<t/>           3.10.0<br/>
-numpy<t/>                2.0.2<br/>
-scikit-learn<t/>         1.7.1<br/>
-tensorflow<t/>           2.19.0<br/>
-keras<t/>                3.10.0<br/>
+pythonInterpreter - - 3.10.0<br/>
+pip - - 23.2.1<br/>
+matplotlib - - 3.10.0<br/>
+numpy - - 2.0.2<br/>
+scikit-learn - - 1.7.1<br/>
+tensorflow - - 2.19.0<br/>
+keras - - 3.10.0<br/>
 
 
 I created a CNN inspired on the VGG16 model for training using the Cats&Dogs dataset, which contains 25,000 images. Training was performed in the "CNNtraining" project.
@@ -22,7 +22,8 @@ The result of the first training is shown in the image below:
 ### Transfer learning ###
 After training the CNN, we obtain a file of the trained model, "best_model.h5." We then use this model with some modifications to retrain it on a dataset with 3,000 images, but with one more class than in the first training. We now have cats,
 dogs, and snakes.
-The result is shown in the image "training_history.png."
+The result is shown in the image below:
+(https://github.com/RoOboOcoOp/TransferLearningM1/training_history.png.)
 
 >[!Important]
 >In both training sessions, we have a "time" function that takes the start time of the training session and, at the end, returns the total time used for each training session.
