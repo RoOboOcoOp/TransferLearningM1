@@ -11,7 +11,35 @@ tensorflow - - 2.19.0<br/>
 keras - - 3.10.0<br/>
 
 
-I created a CNN inspired on the VGG16 model for training using the Cats&Dogs dataset, which contains 25,000 images. Training was performed in the "CNNtraining" project.
+I created a CNN inspired on the VGG16 model for training using the Cats&Dogs dataset, which contains 25,000 images. Training was performed in the "CNNtraining" project
+and the pre-trainned model is this:
+
+````
+    keras.layers.Conv2D(32, (3, 3), padding='same', input_shape=input_shape),
+    keras.layers.Activation('relu'),
+    keras.layers.MaxPooling2D(pool_size=(2, 2)),
+
+    keras.layers.Conv2D(64, (3, 3), padding='same'),
+    keras.layers.Activation('relu'),
+    keras.layers.MaxPooling2D(pool_size=(2, 2)),
+
+    keras.layers.Dropout(0.25),
+
+    keras.layers.Conv2D(64, (3, 3), padding='same'),
+    keras.layers.Activation('relu'),
+    keras.layers.MaxPooling2D(pool_size=(2, 2)),
+
+    keras.layers.Dropout(0.25),
+
+    keras.layers.Flatten(),
+    keras.layers.Dense(128),
+    keras.layers.Activation('relu'),
+    keras.layers.Dropout(0.5),
+
+    keras.layers.Dense(num_classes),
+    keras.layers.Activation('softmax')
+````
+
 When using the dataset, I noticed two corrupted images: one in the Cats folder and the other in the Dogs folder.
 Using the code, it was impossible to train because the code was outdated. This outdated code causes
 the code to consume excessive RAM.
