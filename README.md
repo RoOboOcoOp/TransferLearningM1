@@ -1,14 +1,14 @@
 # Build:
 
-### Library        Version ###
+### Library       Version ###
 
-pythonInterpreter    3.10.0<br/>
-pip                  23.2.1<br/>
-matplotlib           3.10.0<br/>
-numpy                2.0.2<br/>
-scikit-learn         1.7.1<br/>
-tensorflow           2.19.0<br/>
-keras                3.10.0<br/>
+pythonInterpreter<t/>    3.10.0<br/>
+pip<t/>                  23.2.1<br/>
+matplotlib<t/>           3.10.0<br/>
+numpy<t/>                2.0.2<br/>
+scikit-learn<t/>         1.7.1<br/>
+tensorflow<t/>           2.19.0<br/>
+keras<t/>                3.10.0<br/>
 
 
 I created a CNN inspired on the VGG16 model for training using the Cats&Dogs dataset, which contains 25,000 images. Training was performed in the "CNNtraining" project.
